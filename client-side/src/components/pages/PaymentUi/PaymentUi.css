@@ -1,0 +1,95 @@
+
+
+.payment-main-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .payment-main-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .payment-main-container h3 {
+    text-align: center;
+    color: #555;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .pricing-plan {
+    background-color: #eef2f7;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .pricing-plan p {
+    margin: 0.5rem 0;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-group label {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-group input {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .input-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .input-row .input-group {
+    flex: 1;
+    margin-right: 0.5rem;
+  }
+  
+  .input-row .input-group:last-child {
+    margin-right: 0;
+  }
+  
+  .pay-button {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .pay-button:hover {
+    background-color: #0056b3;
+  }
+  

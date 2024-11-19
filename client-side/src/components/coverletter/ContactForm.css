@@ -1,0 +1,81 @@
+
+.contact-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-form-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #080808;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form-container p {
+    color: #050505;
+    margin-bottom: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    
+  }
+  
+  .form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .save-button-contact{
+    background-color: green;
+  }
+  
+  .form-group label {
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    padding: 8px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .cancel-button,
+  .save-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cancel-button {
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  .save-button {
+    background-color: #ffcc00;
+    color: #fff;
+  }
+  
+  .save-button:hover {
+    background-color: #ffb700;
+  }
+  

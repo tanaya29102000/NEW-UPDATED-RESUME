@@ -1,0 +1,20 @@
+
+.General-main-container{
+    display: flex;
+    width: 100%;
+    margin-left: 50px;
+}
+.general-account-setting-conatiner{
+    margin-left: 70px;
+    margin-top: 50px;
+
+}
+.general-account-header{
+    font-size:x-large;
+   font-weight: 400;
+}
+.general-title{
+    align-content: center;
+  padding: 40px;
+  font-size: larger;
+}

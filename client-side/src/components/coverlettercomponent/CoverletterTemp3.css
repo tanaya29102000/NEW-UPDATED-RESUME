@@ -1,0 +1,96 @@
+
+.cover-letter-container-temp3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  
+    width: 750px;
+  
+    padding: 30px 70px;
+    margin: 90px auto;
+  }
+  
+  .coverlettermain-container-flex-temp3 {
+    display: flex;
+    flex-direction: row;
+  
+    background-color: #e4e1e1;
+  
+    width: 100%;
+  }
+  
+  .contacts-section-temp3 {
+    width: 20%;
+    border: 1px solid black;
+    padding: 0 8px;
+    background-color: #f573a7;
+  }
+  .other-sections-temp3 {
+    width: 75%;
+    margin-top: 130px;
+    text-align: justify;
+    margin-left: 70px;
+    gap: 15px;
+    padding-right: 40px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .subjects-section-temp3 strong {
+    color: blue;
+  }
+  .recipients-section-temp3 strong {
+    color: blue;
+  }
+  .contacts-section-temp3 strong {
+    color: blue;
+    margin-bottom: 20px;
+  }
+  .opening-texts-section-temp3 {
+    gap: 15px;
+    line-height: 1.5;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-details-temp3 {
+    font-size: 14px;
+    color: #0a0a0a;
+  }
+  
+  .sincerely-section-temp3 p,
+  .conclusion-section-temp3 p,
+  .letter-body-section-temp3 p,
+  .subjects-section-temp3 p,
+  .recipients-section-temp3 p {
+    font-size: 16px;
+  }
+  
+  .loading {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .error {
+    font-size: 16px;
+    color: red;
+  }
+  
+  .sincerely-section-temp3 h3 {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: justify;
+  }
+  
+  .sincerely-section-temp3 p {
+    font-size: 16px;
+    color: #333;
+    text-align: justify;
+  }
+  
