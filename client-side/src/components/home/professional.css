@@ -1,0 +1,80 @@
+/* Professional Section */
+.resume-builder-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .resume-builder-info {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .resume-builder-btn {
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .resume-builder-btn:hover {
+    background-color: #2c81c0;
+  }
+/* General styling for the Features Section */
+.features-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.features-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Flexbox layout for each feature */
+.feature {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+/* Image styling */
+.feature img {
+  width: 200px; /* Image size */
+  height: auto;
+  margin-right: 20px; /* Space between image and paragraph */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 200px;
+}
+
+
+/* Paragraph styling */
+.feature p {
+  width: 80%; /* Allow paragraph to take up more space */
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Ensuring responsiveness on smaller screens */
+@media screen and (max-width: 768px) {
+  .feature {
+    flex-direction: column; /* Stack image and paragraph vertically on smaller screens */
+    align-items: center;
+  }
+
+  .feature img {
+    margin-bottom: 15px; /* Add margin between image and paragraph on small screens */
+  }
+}

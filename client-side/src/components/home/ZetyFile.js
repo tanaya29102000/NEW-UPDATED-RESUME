@@ -36,9 +36,9 @@ function Zety() {
 
           {/* Zety Description Section - Right Side */}
           <div className="zety-description">
-            <h2>What is ATM Friendly Resume?</h2>
+            <h2>What is Zety’s?</h2>
             <p>
-            ATM Friendly Resume is an all-in-one career platform powered by some of the
+            Zety’s an all-in-one career platform powered by some of the
               best career experts and a community of 40 million readers a year.
             </p>
             <p>

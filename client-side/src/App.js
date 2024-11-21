@@ -38,6 +38,7 @@ import SelectResumePage from "./pages/SelectResumePage";
 import UploadResumePage from "./pages/UploadResumePage";
 import ResumeBuilder from "./resume/ResumeBuilder";
 import Pricing from "./components/home/Pricing";
+import Professional from "./components/home/professional";
 
 function App() {
   const location = useLocation(); // Get the current route path
@@ -61,6 +62,7 @@ function App() {
         <Route path="/faq" element={<FAQ />} />
         <Route path="/zety" element={<ZetyFile />} />
         <Route path="/create-resume" element={<Createresume />} />
+        <Route path="/professional" element={<Professional/>}/>
         <Route
           path="/account-settings/general"
           element={<GeneralAccountSettings />}

@@ -5,14 +5,13 @@ import ResumeFile from "./ResumeFile";
 import FAQ from "./FAQ";
 import ZetyFile from "./ZetyFile";
 import Footer from "./Footer";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
-
   const navigate = useNavigate();
 
   const handleResume = () => {
-    navigate('/create-resume');
+    navigate("/create-resume");
   };
   const hrDetails = [
     {

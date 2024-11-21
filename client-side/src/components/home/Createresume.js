@@ -1,5 +1,6 @@
 import React from "react";
 import "./Createresume.css";
+import Professional from "./professional";
 
 const ResumeBuilder = () => {
   return (
@@ -87,6 +88,7 @@ const ResumeBuilder = () => {
           <br />
           <button type="button">Create Your Resume Now</button>
         </div>
+        <Professional></Professional>
       </section>
     </>
   );

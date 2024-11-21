@@ -1,136 +1,155 @@
-/* General Styling */
+/* Global Styles */
 body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-  }
-  
-  .zety-layout {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 40px;
-    gap: 40px;
-  }
-  
-  .statistics, .zety-description {
-    flex: 1;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-  }
-  
-  .statistics {
-    margin-right: 20px;
-  }
-  
-  .statistic h3 {
-    color: #010707;
-    font-size: 2rem;
-    margin: 0;
-  }
-  
-  .statistic p {
-    margin: 8px 0 16px;
-    color: #1a1212;
-  }
-  
-  /* Zety Description */
-  .zety-description h2 {
-    color: #02151c;
-    margin-bottom: 16px;
-  }
-  
-  .zety-description p {
-    margin: 12px 0;
-    color: #060505;
-    line-height: 1.6;
-  }
-  
-  .zety-description h3 {
-    margin-top: 24px;
-    color: #031b18;
-  }
-  
-  /* Services Section Styling */
-/* General Styling */
-.services {
-  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
 }
 
-.services h3 {
-  text-align: center;
-  margin-bottom: 30px;
-  font-size: 2rem;
-  color: #080202;
+h2, h3, h4 {
+  color: #2c3e50;
+  margin-bottom: 10px;
 }
 
-/* Service Card Layout */
-.service-card {
-  display: flex;
-  align-items: center;
+p {
+  margin-bottom: 10px;
+}
+
+/* Zety Info Section */
+.zety-info {
+  padding: 40px;
   background-color: #fff;
-  border-radius: 12px;
-  margin-bottom: 20px;
-  padding: 20px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-.title {
-  margin-left: 80px;
-  font-size: 25px; /* Correct font size */
-  font-weight: 800; /* Adjust weight (max is typically 900) */
-  text-align: center; /* Use this for centering text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-/* Image on the left */
-.service-card img {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-right: 20px;
+.zety-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
 }
 
-/* Text information on the right */
-.service-info {
+.statistics {
   flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.statistic {
+  flex: 1 1 150px;
+  text-align: center;
+  background: #ecf0f1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.statistic h3 {
+  font-size: 24px;
+  color: #2980b9;
+}
+
+.statistic p {
+  font-size: 14px;
+}
+
+.zety-description {
+  flex: 1.5;
+  padding: 20px;
+  background: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.zety-description p {
+  margin-bottom: 15px;
+}
+
+/* Services Section */
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.service-card {
+  flex: 1 1 300px;
+  max-width: 300px;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.service-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.service-info {
+  padding: 15px;
 }
 
 .service-info h4 {
-  margin: 0 0 10px;
-  font-size: 1.5rem;
-  color: #2a9d8f;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #16a085;
 }
 
 .service-info p {
-  margin: 0;
-  font-size: 1rem;
-  color: #140202;
-  line-height: 1.5;
+  font-size: 14px;
+  color: #555;
 }
 
-/* Hover effect */
-.service-card:hover {
-  transform: scale(1.02);
+.title {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 24px;
+  color: #030506;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .service-card {
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .zety-layout {
     flex-direction: column;
-    text-align: center;
   }
 
-  .service-card img {
-    margin: 0 0 15px;
+  .statistics {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .statistic {
+    flex: 1 1 100%;
+  }
+
+  .zety-description {
+    margin-top: 20px;
+  }
+
+  .service-card {
+    flex: 1 1 100%;
   }
 }
-
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .zety-layout {
-      flex-direction: column;
-    }
-  }
-  
